@@ -444,25 +444,25 @@ public class MachineRecipes implements Runnable {
         // 2 * MINUTE,
         // (int) TierEU.RECIPE_UEV);
         //
-        // // Project Manager Module
-        // TTRecipeAdder.addResearchableAssemblylineRecipe(
-        // new ItemStack(GameRegistry.findItem("miscutils", "blockProjectBench"), 1),
-        // 256000,
-        // 512,
-        // 1000000,
-        // 4,
-        // new Object[] { new ItemStack(GameRegistry.findItem("miscutils", "blockProjectBench"), 4),
-        // ItemList.Emitter_UV.get(2), ItemList.Sensor_UV.get(2),
-        // new Object[] { OrePrefixes.circuit.get(Materials.UV), 16 },
-        // GTOreDictUnificator.get(OrePrefixes.gearGt, Materials.Neutronium, 4),
-        // GTOreDictUnificator.get(OrePrefixes.frameGt, Materials.Neutronium, 4),
-        // new ItemStack(GameRegistry.findItem("structurelib", "item.structurelib.constructableTrigger"), 64),
-        // titaniumBetaCScrew_64, },
-        // new FluidStack[] { MaterialsAlloy.INDALLOY_140.getFluidStack(32 * INGOTS),
-        // Materials.Iridium.getMolten(16 * INGOTS), Materials.UUMatter.getFluid(2_000) },
-        // ItemList.SpaceElevatorModuleManager.get(1),
-        // 2 * MINUTE,
-        // (int) TierEU.RECIPE_UHV);
+        // Project Manager Module
+         TTRecipeAdder.addResearchableAssemblylineRecipe(
+         new ItemStack(GameRegistry.findItem("miscutils", "blockProjectBench"), 1),
+         256000,
+         512,
+         1000000,
+         4,
+         new Object[] { new ItemStack(GameRegistry.findItem("miscutils", "blockProjectBench"), 4),
+         ItemList.Emitter_UV.get(2), ItemList.Sensor_UV.get(2),
+         new Object[] { OrePrefixes.circuit.get(Materials.UV), 16 },
+         GTOreDictUnificator.get(OrePrefixes.gearGt, Materials.Neutronium, 4),
+         GTOreDictUnificator.get(OrePrefixes.frameGt, Materials.Neutronium, 4),
+         new ItemStack(GameRegistry.findItem("structurelib", "item.structurelib.constructableTrigger"), 64),
+         titaniumBetaCScrew_64, },
+         new FluidStack[] { MaterialsAlloy.INDALLOY_140.getFluidStack(32 * INGOTS),
+         Materials.Iridium.getMolten(16 * INGOTS), Materials.UUMatter.getFluid(2_000) },
+         ItemList.SpaceElevatorModuleManager.get(1),
+         2 * MINUTE,
+         (int) TierEU.RECIPE_UHV);
 
         // Miner Module MK-I
         TTRecipeAdder.addResearchableAssemblylineRecipe(
